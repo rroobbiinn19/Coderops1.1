@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+div ul.daine{
+	justify-content: flex-end;
+	color: white !important;
+}
+div ul.dane{
+	color: white !important;
+}
+.navbar-brand img{
+	width: 150px;
+}
+header{
+	background-color: #37517E;
+}
+a.blue{
+	background-color: #1f7fae;
+	color: white;
+}
+a.blue:hover{
+	color: black;
+	background-color: orange;
+}
+
+a.transparent:hover{
+    color: black;
+	background-color: orange;
+}
+}
+div p.lorem{
+	line-height: 1.5;
+
+}
+header{
+	background-image: url(../images/3255469-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 45px;
+    
+}
+header nav{}
+@media (max-width: 1399px){}
+@media (max-width: 1199px){
+	div h1.fw-bold {
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+div p.lorem {
+    line-height: 1.5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}	
+.partner-section .row div{
+	padding-right: 2px;
+    padding-left: 2px;
+}
+}
+@media (max-width: 991px){
+	div h1.fw-bold {
+    line-height: 1.5;
+    font-size: 28px;
+}
+div p.lorem {
+    line-height: 1.5;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header {
+    background-image: url(../images/3255469-removebg-preview.png);
+    background-size: 400px;
+}   
+header nav {
+    height: 74px;
+}
+
+@media (max-width: 767px){
+	div p.lorem {
+    font-size: 12px;
+}
+div h1.fw-bold {
+    font-size: 20px;
+}
+.transparent {
+    font-size: 8px;
+}
+.blue {
+    font-size: 8px;
+}
+header {
+    background-size: 314px;
+}
+.partner-section .row div {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+@media (max-width: 575px){
+	header {
+    background-image: url(../images/pexels-irina-iriser-943907.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+div h1.fw-bold {
+    font-size: 20px;
+    text-align: center;
+}
+div p.lorem {
+    font-size: 14px;
+    text-align: center;
+}
+.transparent {
+    font-size: 10px;
+}
+.blue {
+    font-size: 10px;
+}
+@media (max-width: 254px){
+	div h1.fw-bold {
+    font-size: 16px;
+    text-align: center;
+}
+div p.lorem {
+    font-size: 10px;
+    text-align: center;
+}
+.blue {
+    font-size: 10px;
+}
+.transparent {
+    font-size: 10px;
+}
